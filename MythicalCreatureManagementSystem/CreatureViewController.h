@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  CreatureViewController.h
 //  MythicalCreatureManagementSystem
 //
 //  Created by Matthew Graham on 1/14/14.
@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MagicalCreature.h"
 
+@interface CreatureViewController : UIViewController
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@property  MagicalCreature *creature;
 
 @end

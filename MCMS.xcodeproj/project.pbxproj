@@ -21,6 +21,12 @@
 		3A1D1F391885D58E002FD2A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A1D1F1B1885D58E002FD2A5 /* UIKit.framework */; };
 		3A1D1F411885D58E002FD2A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A1D1F3F1885D58E002FD2A5 /* InfoPlist.strings */; };
 		3A1D1F431885D58E002FD2A5 /* MythicalCreatureManagementSystemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1D1F421885D58E002FD2A5 /* MythicalCreatureManagementSystemTests.m */; };
+		3A1D1F4E1885DC95002FD2A5 /* CreatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1D1F4D1885DC95002FD2A5 /* CreatureViewController.m */; };
+		3A1D1F511885DE56002FD2A5 /* MagicalCreature.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1D1F501885DE56002FD2A5 /* MagicalCreature.m */; };
+		3A1D1F531885F83F002FD2A5 /* CheckMate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A1D1F521885F83F002FD2A5 /* CheckMate.framework */; };
+		3A1D1F5D18860EED002FD2A5 /* Centaur.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A1D1F5A18860EED002FD2A5 /* Centaur.png */; };
+		3A1D1F5E18860EED002FD2A5 /* unicorn.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A1D1F5B18860EED002FD2A5 /* unicorn.png */; };
+		3A1D1F5F18860EED002FD2A5 /* yeti.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A1D1F5C18860EED002FD2A5 /* yeti.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,25 +40,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3A1D1F141885D58E002FD2A5 /* MythicalCreatureManagementSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MythicalCreatureManagementSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A1D1F141885D58E002FD2A5 /* MCMS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCMS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A1D1F171885D58E002FD2A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3A1D1F191885D58E002FD2A5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		3A1D1F1B1885D58E002FD2A5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		3A1D1F1F1885D58E002FD2A5 /* MythicalCreatureManagementSystem-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MythicalCreatureManagementSystem-Info.plist"; sourceTree = "<group>"; };
+		3A1D1F1F1885D58E002FD2A5 /* MCMS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MCMS-Info.plist"; sourceTree = "<group>"; };
 		3A1D1F211885D58E002FD2A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3A1D1F231885D58E002FD2A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3A1D1F251885D58E002FD2A5 /* MythicalCreatureManagementSystem-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MythicalCreatureManagementSystem-Prefix.pch"; sourceTree = "<group>"; };
+		3A1D1F251885D58E002FD2A5 /* MCMS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MCMS-Prefix.pch"; sourceTree = "<group>"; };
 		3A1D1F261885D58E002FD2A5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3A1D1F271885D58E002FD2A5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3A1D1F2A1885D58E002FD2A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3A1D1F2C1885D58E002FD2A5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3A1D1F2D1885D58E002FD2A5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3A1D1F2F1885D58E002FD2A5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		3A1D1F351885D58E002FD2A5 /* MythicalCreatureManagementSystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MythicalCreatureManagementSystemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A1D1F351885D58E002FD2A5 /* MCMSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MCMSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A1D1F361885D58E002FD2A5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		3A1D1F3E1885D58E002FD2A5 /* MythicalCreatureManagementSystemTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MythicalCreatureManagementSystemTests-Info.plist"; sourceTree = "<group>"; };
+		3A1D1F3E1885D58E002FD2A5 /* MCMSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MCMSTests-Info.plist"; sourceTree = "<group>"; };
 		3A1D1F401885D58E002FD2A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3A1D1F421885D58E002FD2A5 /* MythicalCreatureManagementSystemTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MythicalCreatureManagementSystemTests.m; sourceTree = "<group>"; };
+		3A1D1F4C1885DC95002FD2A5 /* CreatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreatureViewController.h; sourceTree = "<group>"; };
+		3A1D1F4D1885DC95002FD2A5 /* CreatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreatureViewController.m; sourceTree = "<group>"; };
+		3A1D1F4F1885DE56002FD2A5 /* MagicalCreature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicalCreature.h; sourceTree = "<group>"; };
+		3A1D1F501885DE56002FD2A5 /* MagicalCreature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagicalCreature.m; sourceTree = "<group>"; };
+		3A1D1F521885F83F002FD2A5 /* CheckMate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CheckMate.framework; path = ../../MMPrep/CheckMate.framework; sourceTree = "<group>"; };
+		3A1D1F5A18860EED002FD2A5 /* Centaur.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Centaur.png; sourceTree = SOURCE_ROOT; };
+		3A1D1F5B18860EED002FD2A5 /* unicorn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unicorn.png; sourceTree = SOURCE_ROOT; };
+		3A1D1F5C18860EED002FD2A5 /* yeti.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yeti.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A1D1F531885F83F002FD2A5 /* CheckMate.framework in Frameworks */,
 				3A1D1F1A1885D58E002FD2A5 /* CoreGraphics.framework in Frameworks */,
 				3A1D1F1C1885D58E002FD2A5 /* UIKit.framework in Frameworks */,
 				3A1D1F181885D58E002FD2A5 /* Foundation.framework in Frameworks */,
@@ -92,8 +107,8 @@
 		3A1D1F151885D58E002FD2A5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3A1D1F141885D58E002FD2A5 /* MythicalCreatureManagementSystem.app */,
-				3A1D1F351885D58E002FD2A5 /* MythicalCreatureManagementSystemTests.xctest */,
+				3A1D1F141885D58E002FD2A5 /* MCMS.app */,
+				3A1D1F351885D58E002FD2A5 /* MCMSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +116,7 @@
 		3A1D1F161885D58E002FD2A5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3A1D1F521885F83F002FD2A5 /* CheckMate.framework */,
 				3A1D1F171885D58E002FD2A5 /* Foundation.framework */,
 				3A1D1F191885D58E002FD2A5 /* CoreGraphics.framework */,
 				3A1D1F1B1885D58E002FD2A5 /* UIKit.framework */,
@@ -115,6 +131,10 @@
 				3A1D1F261885D58E002FD2A5 /* AppDelegate.h */,
 				3A1D1F271885D58E002FD2A5 /* AppDelegate.m */,
 				3A1D1F291885D58E002FD2A5 /* Main.storyboard */,
+				3A1D1F4C1885DC95002FD2A5 /* CreatureViewController.h */,
+				3A1D1F4D1885DC95002FD2A5 /* CreatureViewController.m */,
+				3A1D1F4F1885DE56002FD2A5 /* MagicalCreature.h */,
+				3A1D1F501885DE56002FD2A5 /* MagicalCreature.m */,
 				3A1D1F2C1885D58E002FD2A5 /* ViewController.h */,
 				3A1D1F2D1885D58E002FD2A5 /* ViewController.m */,
 				3A1D1F2F1885D58E002FD2A5 /* Images.xcassets */,
@@ -126,10 +146,13 @@
 		3A1D1F1E1885D58E002FD2A5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3A1D1F1F1885D58E002FD2A5 /* MythicalCreatureManagementSystem-Info.plist */,
+				3A1D1F5A18860EED002FD2A5 /* Centaur.png */,
+				3A1D1F5B18860EED002FD2A5 /* unicorn.png */,
+				3A1D1F5C18860EED002FD2A5 /* yeti.png */,
+				3A1D1F1F1885D58E002FD2A5 /* MCMS-Info.plist */,
 				3A1D1F201885D58E002FD2A5 /* InfoPlist.strings */,
 				3A1D1F231885D58E002FD2A5 /* main.m */,
-				3A1D1F251885D58E002FD2A5 /* MythicalCreatureManagementSystem-Prefix.pch */,
+				3A1D1F251885D58E002FD2A5 /* MCMS-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -146,7 +169,7 @@
 		3A1D1F3D1885D58E002FD2A5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3A1D1F3E1885D58E002FD2A5 /* MythicalCreatureManagementSystemTests-Info.plist */,
+				3A1D1F3E1885D58E002FD2A5 /* MCMSTests-Info.plist */,
 				3A1D1F3F1885D58E002FD2A5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -155,9 +178,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3A1D1F131885D58E002FD2A5 /* MythicalCreatureManagementSystem */ = {
+		3A1D1F131885D58E002FD2A5 /* MCMS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3A1D1F461885D58E002FD2A5 /* Build configuration list for PBXNativeTarget "MythicalCreatureManagementSystem" */;
+			buildConfigurationList = 3A1D1F461885D58E002FD2A5 /* Build configuration list for PBXNativeTarget "MCMS" */;
 			buildPhases = (
 				3A1D1F101885D58E002FD2A5 /* Sources */,
 				3A1D1F111885D58E002FD2A5 /* Frameworks */,
@@ -167,14 +190,14 @@
 			);
 			dependencies = (
 			);
-			name = MythicalCreatureManagementSystem;
+			name = MCMS;
 			productName = MythicalCreatureManagementSystem;
-			productReference = 3A1D1F141885D58E002FD2A5 /* MythicalCreatureManagementSystem.app */;
+			productReference = 3A1D1F141885D58E002FD2A5 /* MCMS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3A1D1F341885D58E002FD2A5 /* MythicalCreatureManagementSystemTests */ = {
+		3A1D1F341885D58E002FD2A5 /* MCMSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3A1D1F491885D58E002FD2A5 /* Build configuration list for PBXNativeTarget "MythicalCreatureManagementSystemTests" */;
+			buildConfigurationList = 3A1D1F491885D58E002FD2A5 /* Build configuration list for PBXNativeTarget "MCMSTests" */;
 			buildPhases = (
 				3A1D1F311885D58E002FD2A5 /* Sources */,
 				3A1D1F321885D58E002FD2A5 /* Frameworks */,
@@ -185,9 +208,9 @@
 			dependencies = (
 				3A1D1F3B1885D58E002FD2A5 /* PBXTargetDependency */,
 			);
-			name = MythicalCreatureManagementSystemTests;
+			name = MCMSTests;
 			productName = MythicalCreatureManagementSystemTests;
-			productReference = 3A1D1F351885D58E002FD2A5 /* MythicalCreatureManagementSystemTests.xctest */;
+			productReference = 3A1D1F351885D58E002FD2A5 /* MCMSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +227,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3A1D1F0F1885D58E002FD2A5 /* Build configuration list for PBXProject "MythicalCreatureManagementSystem" */;
+			buildConfigurationList = 3A1D1F0F1885D58E002FD2A5 /* Build configuration list for PBXProject "MCMS" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -217,8 +240,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3A1D1F131885D58E002FD2A5 /* MythicalCreatureManagementSystem */,
-				3A1D1F341885D58E002FD2A5 /* MythicalCreatureManagementSystemTests */,
+				3A1D1F131885D58E002FD2A5 /* MCMS */,
+				3A1D1F341885D58E002FD2A5 /* MCMSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -228,8 +251,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A1D1F5D18860EED002FD2A5 /* Centaur.png in Resources */,
 				3A1D1F301885D58E002FD2A5 /* Images.xcassets in Resources */,
+				3A1D1F5F18860EED002FD2A5 /* yeti.png in Resources */,
 				3A1D1F221885D58E002FD2A5 /* InfoPlist.strings in Resources */,
+				3A1D1F5E18860EED002FD2A5 /* unicorn.png in Resources */,
 				3A1D1F2B1885D58E002FD2A5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,6 +276,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A1D1F2E1885D58E002FD2A5 /* ViewController.m in Sources */,
+				3A1D1F4E1885DC95002FD2A5 /* CreatureViewController.m in Sources */,
+				3A1D1F511885DE56002FD2A5 /* MagicalCreature.m in Sources */,
 				3A1D1F281885D58E002FD2A5 /* AppDelegate.m in Sources */,
 				3A1D1F241885D58E002FD2A5 /* main.m in Sources */,
 			);
@@ -268,7 +296,7 @@
 /* Begin PBXTargetDependency section */
 		3A1D1F3B1885D58E002FD2A5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3A1D1F131885D58E002FD2A5 /* MythicalCreatureManagementSystem */;
+			target = 3A1D1F131885D58E002FD2A5 /* MCMS */;
 			targetProxy = 3A1D1F3A1885D58E002FD2A5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -378,10 +406,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/McMurdo1/Documents/MMPrep,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MythicalCreatureManagementSystem/MythicalCreatureManagementSystem-Prefix.pch";
-				INFOPLIST_FILE = "MythicalCreatureManagementSystem/MythicalCreatureManagementSystem-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "MythicalCreatureManagementSystem/MCMS-Prefix.pch";
+				INFOPLIST_FILE = "MythicalCreatureManagementSystem/MCMS-Info.plist";
+				PRODUCT_NAME = MCMS;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -391,10 +423,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/McMurdo1/Documents/MMPrep,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MythicalCreatureManagementSystem/MythicalCreatureManagementSystem-Prefix.pch";
-				INFOPLIST_FILE = "MythicalCreatureManagementSystem/MythicalCreatureManagementSystem-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "MythicalCreatureManagementSystem/MCMS-Prefix.pch";
+				INFOPLIST_FILE = "MythicalCreatureManagementSystem/MCMS-Info.plist";
+				PRODUCT_NAME = MCMS;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -415,8 +451,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "MythicalCreatureManagementSystemTests/MythicalCreatureManagementSystemTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "MythicalCreatureManagementSystemTests/MCMSTests-Info.plist";
+				PRODUCT_NAME = MCMSTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -434,8 +470,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MythicalCreatureManagementSystem/MythicalCreatureManagementSystem-Prefix.pch";
-				INFOPLIST_FILE = "MythicalCreatureManagementSystemTests/MythicalCreatureManagementSystemTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "MythicalCreatureManagementSystemTests/MCMSTests-Info.plist";
+				PRODUCT_NAME = MCMSTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -444,7 +480,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3A1D1F0F1885D58E002FD2A5 /* Build configuration list for PBXProject "MythicalCreatureManagementSystem" */ = {
+		3A1D1F0F1885D58E002FD2A5 /* Build configuration list for PBXProject "MCMS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3A1D1F441885D58E002FD2A5 /* Debug */,
@@ -453,7 +489,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3A1D1F461885D58E002FD2A5 /* Build configuration list for PBXNativeTarget "MythicalCreatureManagementSystem" */ = {
+		3A1D1F461885D58E002FD2A5 /* Build configuration list for PBXNativeTarget "MCMS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3A1D1F471885D58E002FD2A5 /* Debug */,
@@ -461,7 +497,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		3A1D1F491885D58E002FD2A5 /* Build configuration list for PBXNativeTarget "MythicalCreatureManagementSystemTests" */ = {
+		3A1D1F491885D58E002FD2A5 /* Build configuration list for PBXNativeTarget "MCMSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3A1D1F4A1885D58E002FD2A5 /* Debug */,
